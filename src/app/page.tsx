@@ -7,10 +7,9 @@ export default function Home() {
         <img
           src="/green-leaves-bg.svg"
           alt="Green leaves background"
-          className="object-cover object-center w-full h-full aspect-auto"
+          className="object-cover w-full h-full"
         />
       </div>
-      <h1>Hello world!</h1>
     </div>
   );
 }
