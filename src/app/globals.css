@@ -24,4 +24,16 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+  .heading {
+    @apply font-bold text-center;
+  }
+}
+
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
 }
